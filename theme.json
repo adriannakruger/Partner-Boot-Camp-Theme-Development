@@ -1,10 +1,10 @@
 {
   "about": {
-    "name": "Exercise 1",
+    "name": "Exercise 2 Theme Settings",
     "extends": "core4",
     "isDesktop": true,
     "isMobile": true,
-    "version": "1.0"
+    "version": ""
   },
   "settings": {
     "bannerImageEnabled": true,
