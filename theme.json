@@ -1,6 +1,6 @@
 {
   "about": {
-    "name": "Exercise 4 - LESS Variables",
+    "name": "Exercise 5 - Stylesheets",
     "author": "Adri",
     "extends": "Core4",
     "isDesktop": true,
@@ -11,7 +11,9 @@
   "settings": {
     "bannerImageEnabled": true,
     "bannerImage": "../resources/images/cryptic-header.png",
-    "listProductThumbSize": 300
+    "listProductThumbSize": 300,
+    "listProductShortDesc": false,
+    "listProductCode": false
   },
   "emailTemplates": [],
   "pageTypes": [],
