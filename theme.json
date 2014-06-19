@@ -1,12 +1,15 @@
 {
   "about": {
-    "name": "[name of your theme]",
+    "name": "Exercise 1",
     "extends": "core4",
     "isDesktop": true,
     "isMobile": true,
-    "version": ""
+    "version": "1.0"
   },
-  "settings": {},
+  "settings": {
+    "bannerImageEnabled": true,
+    "bannerImage": "../resources/images/cryptic-header.png"
+  },
   "pageTypes": [],
   "widgets": []
 }
