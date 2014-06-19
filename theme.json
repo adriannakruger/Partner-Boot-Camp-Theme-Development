@@ -1,6 +1,6 @@
 {
   "about": {
-    "name": "Exercise 7 - Soft Cart",
+    "name": "Exercise 8 - Cart Integration",
     "author": "Adri",
     "extends": "Core4",
     "isDesktop": true,

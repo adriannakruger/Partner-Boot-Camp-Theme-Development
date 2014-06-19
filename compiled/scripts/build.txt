@@ -62,6 +62,8 @@ pages/myaccount.js
 pages/product.js
 ----------------
 modules/views-productimages.js
+modules/models-cart.js
+modules/soft-cart.js
 shim!vendor/jquery.tools.dateinput[jquery=jQuery]>jQuery
 modules/jquery-dateinput-localized.js
 pages/product.js
