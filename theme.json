@@ -1,15 +1,60 @@
 {
   "about": {
-    "name": "Exercise 2 Theme Settings",
-    "extends": "core4",
+    "name": "Exercise 3 - Widgets",
+    "author": "Adri",
+    "extends": "Core4",
     "isDesktop": true,
     "isMobile": true,
+    "defaultLanguage": "en-US",
     "version": ""
   },
   "settings": {
     "bannerImageEnabled": true,
     "bannerImage": "../resources/images/cryptic-header.png"
   },
+  "emailTemplates": [],
   "pageTypes": [],
-  "widgets": []
+  "widgets": [
+    {
+      "id": "pin_this",
+      "displayName": "Pin This",
+      "displayTemplate": "catalog/pin-this",
+      "editViewFields": [
+        {
+          "name": "shape",
+          "fieldLabel": "Shape",
+          "xtype": "combo",
+          "store": [
+            [
+              "round",
+              "Round"
+            ],
+            [
+              "rectangular",
+              "Rectangular"
+            ]
+          ]
+        },
+        {
+          "name": "size",
+          "fieldLabel": "Size",
+          "xtype": "combo",
+          "store": [
+            [
+              "small",
+              "Small"
+            ],
+            [
+              "large",
+              "Large"
+            ]
+          ]
+        }
+      ],
+      "icon": "/resources/admin/widgets/pinterest.png",
+      "validPageTypes": [
+        "product"
+      ]
+    }
+  ]
 }
